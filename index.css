@@ -1,0 +1,20 @@
+body {
+  background-color: #e0e0e0;
+  padding: 32px;
+}
+
+.centerbox {
+  margin: auto;
+  /*background-color: #808080;*/
+  max-width: 800px;
+}
+
+.title {
+  font-family: "Roboto Slab", Garamond;
+  font-size: 40px;
+}
+
+.text {
+  font-family: Roboto, Verdana;
+  font-size: 20px;
+}
