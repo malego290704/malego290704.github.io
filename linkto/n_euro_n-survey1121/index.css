@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eeeeee;
+  padding: 32px;
+}
+
+.centerbox {
+  margin: auto;
+  max-width: 768px;
+}
+
+.buttonbox {
+  margin: 3%;
+  width: 88%;
+  background-color: #f8f8f8;
+  padding: 3%;
+  transition: 0.2s;
+  display: block;
+}
+
+.buttonbox:hover {
+  background-color: #d8d8d8;
+}
+
+.title {
+  font-family: "Roboto Slab", Garamond;
+  font-size: 40px;
+  line-height: 1.4;
+  color: #202020;
+}
+
+.text {
+  font-family: Roboto, Verdana;
+  font-size: 20px;
+  line-height: 1.4;
+  color: #404040;
+}
+
+a {
+  text-decoration: none;
+}
