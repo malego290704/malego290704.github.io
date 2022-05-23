@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eeeeee;
+  padding: 0px;
+  margin: 0px;
+}
+
+.centerbox {
+  padding-left: 16px;
+  padding-right: 16px;
+  margin: auto;
+  max-width: 700px;
+}
+
+.buttonbox {
+  margin: 3%;
+  width: 94%;
+  background-color: #f8f8f8;
+  padding: 3%;
+  transition: 0.2s;
+  display: block;
+}
+
+.buttonbox:hover {
+  background-color: #d8d8d8;
+}
+
+.title {
+  font-family: "Roboto Slab", Garamond;
+  font-size: 36px;
+  line-height: 1.4;
+  color: #202020;
+}
+
+.text {
+  font-family: Roboto, Verdana;
+  font-size: 18px;
+  line-height: 1.4;
+  color: #404040;
+}
+
+a {
+  text-decoration: underline;
+}
+
+form {
+  padding: 3%;
+  transition: 0.2s;
+  background-color: #f8f8f8;
+}
+
+form:hover {
+  background-color: #d8d8d8;
+}
+
+input {
+  padding: 4px 8px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+textarea {
+  padding: 4px 8px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+img {
+  width: 100%;
+  max-width: 700px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
